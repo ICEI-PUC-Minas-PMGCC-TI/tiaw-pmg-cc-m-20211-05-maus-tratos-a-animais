@@ -35,7 +35,7 @@
     margin-bottom: 100px;
 }
 
-.card {
+.no-border {
     border: 0;
     border-radius: 10px;
 }
@@ -104,6 +104,17 @@
     background: linear-gradient(45deg, #cecece, #30364d);
 }
 
+.channels-flex {
+    flex-direction: column;
+}
+
+/* Desktop */
+@media only screen and (min-width: 600px) {
+    .channels-flex {
+        flex-direction: row;
+    }
+}
+
 .click-here {
     font-size: large;
     font-weight: 500;
@@ -156,4 +167,24 @@ footer {
     right: 10px;
     top: 10px;
     padding: 5px 10px;
+}
+
+.comment-form {
+    max-width: 700px;
+}
+
+.footer {
+    background: #f7f7f7;
+    height: 156px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #f7f7f7;
+}
+
+.footer-logo {
+    font-size: xx-large;
 }
