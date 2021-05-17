@@ -104,6 +104,17 @@
     background: linear-gradient(45deg, #cecece, #30364d);
 }
 
+.channels-flex {
+    flex-direction: column;
+}
+
+/* Desktop */
+@media only screen and (min-width: 600px) {
+    .channels-flex {
+        flex-direction: row;
+    }
+}
+
 .click-here {
     font-size: large;
     font-weight: 500;
