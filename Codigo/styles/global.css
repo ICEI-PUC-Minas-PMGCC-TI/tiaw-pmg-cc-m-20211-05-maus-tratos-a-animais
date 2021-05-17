@@ -172,3 +172,19 @@ footer {
 .comment-form {
     max-width: 700px;
 }
+
+.footer {
+    background: #f7f7f7;
+    height: 156px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #f7f7f7;
+}
+
+.footer-logo {
+    font-size: xx-large;
+}
