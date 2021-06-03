@@ -1,0 +1,17 @@
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 650;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+}
