@@ -18,6 +18,14 @@
 
         <!-- Custom Styles -->
         <link href="./styles/global.css" rel="stylesheet" />
+        <link href="./styles/sobre-nos.css" rel="stylesheet" />
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- JS -->
+        <script src="/Codigo/Scripts/wpp-button.js"></script>
     </head>
 
     <body>
@@ -128,16 +136,50 @@
                                 <h1>Sobre Nós</h1>
                             </div>
                             <div class="about-text d-flex m-5">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Vitae congue eu consequat ac felis
-                                    donec et odio. Viverra accumsan in nisl nisi. Dictumst vestibulum rhoncus est
-                                    pellentesque elit ullamcorper dignissim. Amet mattis vulputate enim nulla aliquet.
-                                    Dolor sed viverra ipsum nunc aliquet. Tincidunt tortor aliquam nulla facilisi cras
-                                    fermentum odio eu. Sapien pellentesque habitant morbi tristique senectus et netus et
-                                    malesuada. Velit laoreet id donec ultrices tincidunt. Sed elementum tempus egestas
-                                    sed sed risus pretium quam vulputate. Nulla at volutpat diam ut venenatis tellus in.
-                                </p>
+                                <div class="sobre-nos-div">
+                                    <p>
+                                        Somos um grupo de estudantes de ciência da computação na Universidade PUC Minas. Nos juntamos
+                                        para realizar o trabalho para a disciplina Trabalho Interdisciplinar: Aplicações Web, nosso objetivo
+                                        nesse projeto é conscientizar as pessoas acerca dos maus-tratos que os animais sofrem.
+                                        <br>Integrantes da equipe: Bernardo França, Guilherme
+                                        Werner, Lucas Cabral, Matheus Ribeiro, Pedro Nilo, Rafael Clark.
+                                        <br>Em caso de dúvidas, reclamações ou sugestões entre em contato:
+                                    </p>
+                                    <div mail-div>
+                                        <b>E-mail: </b> <a class="mail-link" href="mailto:maustratosanimaispucmg@gmail.com">maustratosanimaispucmg@gmail.com</a>
+                                    </div>
+                                    <div class="div-wpp">
+                                        <div class="wpp-btn" onclick="wppShow()">
+                                            <img class="wpp-img" src="Imagens/005-whatsapp.png" alt="">
+                                            Whatsapp
+                                        </div>
+                                        <div class="wpp-area">
+                                            <div class="wpp-1">
+                                                <div class="wpp-close" onclick="wppHide()">
+                                                    <img class="wpp-img-close" src="Imagens/close.png">
+                                                </div>
+                                                <div class="div-profile">
+                                                    <img class="img-profile" src="Imagens/wpp-profile.png">
+                                                </div>
+                                                <h4 class="profile-name">Maus-tratos aos animais</h4>
+                                            </div>
+                                            <div class="wpp-2">
+                                                <div class="wpp-chat">
+                                                    <div class="wpp-chat-nome">Maus-tratos aos animais</div>
+                                                    <div class="wpp-chat-mensagem">Olá!<br>Como podemos ajudá-lo?</div>
+                                                    <div class="wpp-chat-time" id="wpp-chat-time">17:30</div>
+                                                </div>
+                                            </div>
+                                            <div class="wpp-3">
+                                                <div class="wpp-redirect">
+                                                    <img class="wpp-img" src="Imagens/whatsapp.png">
+                                                    Iniciar conversa
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
