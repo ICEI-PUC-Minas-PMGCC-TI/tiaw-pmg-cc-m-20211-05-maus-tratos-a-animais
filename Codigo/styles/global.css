@@ -109,6 +109,7 @@
 }
 
 /* Desktop */
+
 @media only screen and (min-width: 600px) {
     .channels-flex {
         flex-direction: row;
@@ -189,9 +190,10 @@ footer {
     font-size: xx-large;
 }
 
-.parecer{
+.parecer {
     display: flex;
 }
-.desaparecer{
+
+.desaparecer {
     display: none;
 }

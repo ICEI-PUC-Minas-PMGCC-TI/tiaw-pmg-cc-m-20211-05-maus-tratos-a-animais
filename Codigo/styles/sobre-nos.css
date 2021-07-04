@@ -1,17 +1,17 @@
-.mail-link{
+.mail-link {
     color: #04b5ae;
     text-decoration: none;
 }
 
-.mail-div{
+.mail-div {
     display: block;
 }
 
-.div-wpp{
+.div-wpp {
     position: relative;
 }
 
-.wpp-btn{
+.wpp-btn {
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -26,16 +26,16 @@
     cursor: pointer;
 }
 
-.wpp-img{
+.wpp-img {
     width: 20px;
     margin-right: 10px;
 }
 
-.div-profile{
+.div-profile {
     position: relative;
 }
 
-.div-profile::before{
+.div-profile::before {
     content: "";
     bottom: 0px;
     right: 16px;
@@ -50,7 +50,7 @@
     border: 2px solid rgb(9, 94, 84);
 }
 
-.wpp-area{
+.wpp-area {
     opacity: 0%;
     display: none;
     flex-direction: column;
@@ -64,7 +64,7 @@
     cursor: default;
 }
 
-.wpp-1{
+.wpp-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -73,21 +73,25 @@
     background-color: rgb(9, 94, 84);
     position: relative;
 }
-.img-profile{
+
+.img-profile {
     width: 50px;
     margin-right: 16px;
 }
-.profile-name{
+
+.profile-name {
     font-size: 18px;
     color: white;
     margin-top: 20px;
 }
-.wpp-2{ 
+
+.wpp-2 {
     position: relative;
     padding: 20px 20px;
     background-color: rgb(230, 221, 212);
 }
-.wpp-2::before{
+
+.wpp-2::before {
     display: block;
     position: absolute;
     content: "";
@@ -100,7 +104,7 @@
     background-image: url("/Codigo/Imagens/wpp-pattern.png");
 }
 
-.wpp-chat{
+.wpp-chat {
     position: relative;
     z-index: auto;
     background-color: white;
@@ -108,7 +112,8 @@
     border-radius: 0px 8px 8px;
     max-width: calc(100% - 66px);
 }
-.wpp-chat::before{
+
+.wpp-chat::before {
     position: absolute;
     background-image: url("/Codigo/Imagens/chat-corner.png");
     background-position: 50% 50%;
@@ -120,19 +125,22 @@
     width: 12px;
     height: 19px;
 }
-.wpp-chat-nome{
+
+.wpp-chat-nome {
     color: rgba(0, 0, 0, 0.4);
     font-size: 13px;
     line-height: 18px;
     font-weight: 700;
 }
-.wpp-chat-mensagem{
+
+.wpp-chat-mensagem {
     color: rgb(17, 17, 17);
     font-size: 14px;
     line-height: 19px;
     margin-top: 4px;
 }
-.wpp-chat-time{
+
+.wpp-chat-time {
     text-align: right;
     width: 100%;
     color: #797979;
@@ -141,11 +149,12 @@
     font-weight: 400;
     margin-top: 4px;
 }
-.wpp-3{
+
+.wpp-3 {
     background-color: white;
 }
 
-.wpp-redirect{
+.wpp-redirect {
     padding: 8px 12px;
     border-radius: 8px;
     border: none;
@@ -166,7 +175,7 @@
     appearance: none;
 }
 
-.wpp-close{
+.wpp-close {
     position: absolute;
     top: 5px;
     right: 12px;
@@ -174,6 +183,6 @@
     cursor: pointer;
 }
 
-.wpp-img-close{
+.wpp-img-close {
     width: 10px;
 }
