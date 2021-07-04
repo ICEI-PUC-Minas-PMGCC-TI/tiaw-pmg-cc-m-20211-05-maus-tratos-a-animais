@@ -188,3 +188,10 @@ footer {
 .footer-logo {
     font-size: xx-large;
 }
+
+.parecer{
+    display: flex;
+}
+.desaparecer{
+    display: none;
+}

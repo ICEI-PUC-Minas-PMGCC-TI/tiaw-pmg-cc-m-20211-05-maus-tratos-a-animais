@@ -1,0 +1,9 @@
+.dep-card {
+    background: linear-gradient(180deg, #a8a8a8, #414141);
+}
+
+.dep-btn {
+    font-size: x-large;
+    font-weight: 600;
+    color: #ffffff;
+}
