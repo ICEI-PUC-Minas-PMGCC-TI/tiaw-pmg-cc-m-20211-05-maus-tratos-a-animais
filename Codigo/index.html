@@ -36,7 +36,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-4">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Logo</a>
+            <a class="navbar-brand" href="index.html">Maus-Tratos Animais</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="denuncias.html">Denunciar</a>
+                        <a class="nav-link" href="#denunciar">Denunciar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -81,16 +81,20 @@
                         <div class="card no-border way-1">
                             <div class="card-body text-center">
                                 <h5 class="card-title">
-                                    <h1 class="display-1 pb-4 text-light">01.</h1>
+                                    <h1 class="display-1 pb-4 text-light-ways">01.</h1>
                                 </h5>
-                                <h6 class="card-subtitle mb-4 text-muted">Meio 1</h6>
+                                <h6 class="card-subtitle mb-4 text-muted-ways">IBAMA</h6>
                                 <p class="card-text way-text">
-                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                                    Suspendisse Varius Enim In Eros Elementum Tristique.
+                                    As denúncias de podem ser feitas pelo telefone 0800 61 8080 (gratuitamente) ou pelo e-mail para
+                                    linhaverde.sede@ibama.gov.br.<br>
+            
+                                    O IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis) as
+                                    encaminhará para a delegacia mais
+                                    próxima onde ocorreu a violência contra o animal.
                                 </p>
-                                <a href="#" class="card-link text-muted">Saiba Mais</a>
+                                <a href="mailto:inhaverde.sede@ibama.gov.br" class="card-link text-muted">Entre em contato</a>
                             </div>
-
+            
                         </div>
                     </div>
                     <div class="col-lg mb-3">
@@ -99,12 +103,15 @@
                                 <h5 class="card-title">
                                     <h1 class="display-1 pb-4 text-light">02.</h1>
                                 </h5>
-                                <h6 class="card-subtitle mb-4 text-muted">Meio 2</h6>
-                                <p class="card-text way-text">
-                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                                    Suspendisse Varius Enim In Eros Elementum Tristique.
+                                <h6 class="card-subtitle mb-4 text-muted-ways2">Delegacia</h6>
+                                <p class="card-text way-text2">
+                                    Cumpre à autoridade policial receber a denúncia e fazer o boletim de ocorrência. O policial que
+                                    se negar a agir estará
+                                    cometendo crime de prevaricação (retardar ou deixar de praticar, indevidamente, ato de ofício,
+                                    ou praticá-lo contra
+                                    disposição expressa de lei, para satisfazer interesse ou sentimento pessoal - art. 319 do Código
+                                    Penal).
                                 </p>
-                                <a href="#" class="card-link text-muted">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
@@ -112,14 +119,20 @@
                         <div class="card no-border way-3">
                             <div class="card-body  text-center">
                                 <h5 class="card-title">
-                                    <h1 class="display-1 pb-4 text-light">03.</h1>
+                                    <h1 class="display-1 pb-4 text-light-ways">03.</h1>
                                 </h5>
-                                <h6 class="card-subtitle mb-4 text-muted">Meio 3</h6>
+                                <h6 class="card-subtitle mb-4 text-muted-ways">Ministério Público</h6>
                                 <p class="card-text way-text">
-                                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                                    Suspendisse Varius Enim In Eros Elementum Tristique.
+                                    O Ministério Público tem autoridade para propor ação contra os que desrespeitam a Lei de Crimes
+                                    Ambientais. Sendo assim,
+                                    pode-se fazer a denúncia diretamente no MP, o que agiliza muito o processo. <br>
+            
+                                    Na cartilha de Defesa dos Animais, do Ministério Público, você pode conferir como fazer a
+                                    denúncia de maus-tratos aos
+                                    animais diretamente ao órgão.
                                 </p>
-                                <a href="#" class="card-link text-muted">Saiba Mais</a>
+                                <a href="http://www.mpsp.mp.br/portal/page/portal/Cartilhas/defesa_animal_2015_06_11_dg.pdf"
+                                    target="_blank" class="card-link text-muted">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
@@ -131,8 +144,7 @@
                 <div class="about-row row">
                     <div class="col-lg mb-2">
                         <div class="card no-border about-card">
-                            <div class="card-body">
-                                <p class="card-text">.</p>
+                            <div class="card-body-sobre-nos">
                             </div>
                         </div>
                     </div>
@@ -200,7 +212,7 @@
                     <h4 class="subtitle">Destaques do BLOG</h4>
                 </div>
             </div>
-            <div class="container">
+            <div class="container-blog">
                 <div class="row">
                     <div class="col">
                         <div class="card shadow-sm">
@@ -233,8 +245,8 @@
                                         </a>
                                     </div>
                                     <div class="justify-content-end">
-                                        <button id="0" onclick="Favoritar(this.id)"><i class="far fa-star"></i></button>
-                                        <button id="favoritado0" onclick="Desfavoritar(this.id)" class="desaparecer"><i
+                                        <button class="favorite-button" id="0" onclick="Favoritar(this.id)"><i class="far fa-star"></i></button>
+                                        <button class="favorite-button-active" id="favoritado0" onclick="Desfavoritar(this.id)" class="desaparecer"><i
                                                 class="fas fa-star"></i></button>
                                     </div>
                                 </div>
@@ -273,8 +285,8 @@
                                         </a>
                                     </div>
                                     <div class="justify-content-end">
-                                        <button id="1" onclick="Favoritar(this.id)"><i class="far fa-star"></i></button>
-                                        <button id="favoritado1" onclick="Desfavoritar(this.id)" class="desaparecer"><i
+                                        <button class="favorite-button" id="1" onclick="Favoritar(this.id)"><i class="far fa-star"></i></button>
+                                        <button class="favorite-button-active" id="favoritado1" onclick="Desfavoritar(this.id)" class="desaparecer"><i
                                                 class="fas fa-star"></i></button>
                                     </div>
                                 </div>
@@ -311,8 +323,8 @@
                                         </a>
                                     </div>
                                     <div class="justify-content-end">
-                                        <button id="2" onclick="Favoritar(this.id)"><i class="far fa-star"></i></button>
-                                        <button id="favoritado2" onclick="Desfavoritar(this.id)" class="desaparecer"><i
+                                        <button class="favorite-button" id="2" onclick="Favoritar(this.id)"><i class="far fa-star"></i></button>
+                                        <button class="favorite-button-active" id="favoritado2" onclick="Desfavoritar(this.id)" class="desaparecer"><i
                                                 class="fas fa-star"></i></button>
                                     </div>
                                 </div>
@@ -330,7 +342,7 @@
                         <h4 class="text-light me-4">Conheça os canais de denúncia </h4>
                     </div>
                     <div class="d-flex">
-                        <button type="button" class="btn btn-lg btn-light py-3 px-4">CLIQUE AQUI</button>
+                        <a href="#denunciar" class="btn btn-lg btn-light-2">CLIQUE AQUI</a>
                     </div>
                 </div>
             </div>
@@ -418,7 +430,7 @@
                             <a class="nav-link text-muted small active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-muted small" href="denuncias.html">Denunciar</a>
+                            <a class="nav-link text-muted small" href="#denunciar">Denunciar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-muted small" href="blog.html">Blog</a>
