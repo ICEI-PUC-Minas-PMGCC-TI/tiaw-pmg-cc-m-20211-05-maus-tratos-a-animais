@@ -116,6 +116,10 @@
     margin-left: auto;
 }
 
+.img-user-depo{
+    height: 35px;
+}
+
 .card-title h1 {
     color: #e9e9e9;
 }
@@ -253,6 +257,7 @@ footer {
 
 .footer-logo {
     font-size: xx-large;
+    color: #239c98 !important;
 }
 
 .parecer {
