@@ -20,7 +20,24 @@
 .banner {
     width: 100%;
     height: 450px;
-    background: #e9eef1;
+    background: #d9f1ff58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #04B5AE;
+    font-size: 4em;
+}
+
+.banner-icons{
+    width: 80px;
+    margin: 0px 20px;
 }
 
 .heading {
